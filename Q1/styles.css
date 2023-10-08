@@ -1,0 +1,81 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+header {
+    background-color: blue;
+    padding: 3rem 2rem 2rem 4rem;
+}
+
+.firstName, .lastName {
+    color: orange;
+    font-size: 3rem;
+    
+}
+
+.resume-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-resume-body {
+    padding: 4rem;
+    width: 70%;
+}
+
+.right-resume-body {
+    padding: 0.6rem;
+    width: 30%;
+    background-color: darkorange;
+}
+
+hr {
+    margin-top: 1rem;
+    border: 0.2rem solid orange;
+}
+
+.title {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image {
+    margin-top: -6rem;
+}
+
+.profile {
+    border: 0.3rem solid white;
+    width: 75%;
+}
+
+.contact {
+    margin-top: 3rem;
+}
+
+.address, .phone, .email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}
+
+.address-icon, .phone-icon, .email-icon {
+    margin-right: 1rem;
+}
+
+.skills {
+    margin-top: 3rem;
+}
+
+.skills-list {
+    margin: 0;
+}
